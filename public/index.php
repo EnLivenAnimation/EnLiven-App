@@ -43,7 +43,7 @@ if($_POST["message"]) {
             ?>
         </nav>
 
-        <div style="background-image: url('nature.jpg');" id="hero">
+        <div style="background-image: url('res/img/home-img.jpg');" id="hero">
             <div class="hero-text">
                 <br>
                 <div>
