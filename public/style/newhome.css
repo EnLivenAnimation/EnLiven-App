@@ -104,6 +104,7 @@ nav button.scroll2:hover{
     background-position: center;
     background-size: cover;
     text-align: center;
+    background-image: url('../res/img/home-img.jpg');
 }
 
 
