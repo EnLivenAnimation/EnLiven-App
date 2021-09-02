@@ -23,6 +23,7 @@ body{
     background-size: cover;
     max-height: 100%;
     width: auto;
+    background-image: url('../res/img/signup-img.jpg');
 }
 
 #signup-info{

@@ -16,7 +16,7 @@
     </head>
     <body>
         <div id="loginimg">
-            <div style="background-image: url('loginimg.jpg');" id="background"></div>
+            <div  id="background"></div>
             <div id="login-info">
                 <div id="loginbar">
                     <p style="color:#686868; text-align: left;">Don't have an account? <a href="signup.php" style="color:#0030DB">Sign Up</a></p>

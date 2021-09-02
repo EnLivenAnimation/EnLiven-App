@@ -27,7 +27,7 @@ if($_POST["message"]) {
     <script>window.onbeforeunload = function () {window.scrollTo(0, 0);}</script>
     <body>
         <nav id="navbar">
-            <script src = "scripts/navbar.js"></script>
+            <script src = "scripts/index.js"></script>
             <a></a>
             <br>
             <button id="b1">Animate</button>
@@ -43,7 +43,7 @@ if($_POST["message"]) {
             ?>
         </nav>
 
-        <div style="background-image: url('../res/img/home-img.jpg');" id="hero">
+        <div id="hero">
             <div class="hero-text">
                 <br>
                 <div>
@@ -112,7 +112,7 @@ if($_POST["message"]) {
                 <div id="Edward Wu" style ="background-color:#7AD17E" class="tabcontent">
                 <h1>Edward Wu</h1>
                 <div class="introduction-person">
-                    <div style="background-image: url('edward-intro.png');" class="introduction-img"></div>
+                    <div class="introduction-img-ed"></div>
                     <div class="introduction-text">
                         <p>Age: 16</p>
                         <p>School: Stuyvesant High School</p>
