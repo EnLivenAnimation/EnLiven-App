@@ -65,7 +65,7 @@ if (isset($_POST['Email'])) {
         'Reply-To: ' . $email . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
     @mail($email_to, $email_subject, $email_message, $headers);
-    header('Location: ../newhome.php');
+    header('Location: ../index.php');
 ?>
     <!-- include your success message below -->
 

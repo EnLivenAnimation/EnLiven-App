@@ -10,23 +10,23 @@
      require_once 'functions.inc.php';
 
      if(emptyInputSignUp($name, $email, $username, $pwd, $pwdRepeat)!==false){
-        header("location: ../newsignup.php?error=emptyinput");
+        header("location: ../signup.php?error=emptyinput");
         exit();
      }
      if(invalidUid($username)!==false){
-        header("location: ../newsignup.php?error=invaliduid");
+        header("location: ../signup.php?error=invaliduid");
         exit();
     }
     if(invalidEmail($email)!==false){
-        header("location: ../newsignup.php?error=invalidemail");
+        header("location: ../signup.php?error=invalidemail");
         exit();
     }
     if(pwdMatch($pwd, $pwdRepeat)!==false){
-        header("location: ../newsignup.php?error=passwordsdontmatch");
+        header("location: ../signup.php?error=passwordsdontmatch");
         exit();
     }
     if(uidExists($conn, $username, $email)!==false){
-        header("location: ../newsignup.php?error=usernametaken");
+        header("location: ../signup.php?error=usernametaken");
         exit();
     }
 
@@ -34,6 +34,6 @@
 
  }
  else {
-     header("location: ../newsignup.php");
+     header("location: ../signup.php");
      exit();
  }

@@ -19,8 +19,8 @@
             <div style="background-image: url('loginimg.jpg');" id="background"></div>
             <div id="login-info">
                 <div id="loginbar">
-                    <p style="color:#686868; text-align: left;">Don't have an account? <a href="newsignup.php" style="color:#0030DB">Sign Up</a></p>
-                    <a href="newhome.php" style="text-align: right; color:black">Close X</a>
+                    <p style="color:#686868; text-align: left;">Don't have an account? <a href="signup.php" style="color:#0030DB">Sign Up</a></p>
+                    <a href="index.php" style="text-align: right; color:black">Close X</a>
                 </div>
                 <h1 style="text-align: center; font-size: 50px; font-weight: bold; margin-top: 50px;">Login</h1>
                 <form action = "includes/login.inc.php" method="post">

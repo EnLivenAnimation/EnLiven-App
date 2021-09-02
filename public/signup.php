@@ -19,8 +19,8 @@
             <div style="background-image: url('signupimg.jpg');" id="background"></div>
             <div id="signup-info">
                 <div id="signupbar">
-                    <p style="color:#686868; text-align: left;">Already have an account? <a href="newlogin.php" style="color:#0030DB">Log In</a></p>
-                    <a href="newhome.php" style="text-align: right;">Close X</a>
+                    <p style="color:#686868; text-align: left;">Already have an account? <a href="login.php" style="color:#0030DB">Log In</a></p>
+                    <a href="index.php" style="text-align: right;">Close X</a>
                 </div>
                 <h1 style="text-align: center; font-size: 50px; font-weight: bold; margin-top: 50px;">Create Account</h1>
                 
