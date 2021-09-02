@@ -17,7 +17,7 @@ if($_POST["message"]) {
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style/newhome.css">
+        <link rel="stylesheet" href="style/index.css">
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
@@ -38,7 +38,7 @@ if($_POST["message"]) {
                         echo "<button onclick=\"location.href='includes/logout.inc.php'\"; id='b4'>Log Out</button>";
                     }
                     else{
-                        echo "<button onclick=\"location.href='newlogin.php'\";  id='b4'>Log In</button>";
+                        echo "<button onclick=\"location.href='login.php'\";  id='b4'>Log In</button>";
                     }
             ?>
         </nav>
