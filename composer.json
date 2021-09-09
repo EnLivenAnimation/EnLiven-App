@@ -1,6 +1,6 @@
 {
     "require": {
-      "laravel/framework":"4.1.*",
+      "laravel/framework":"^4.1.*",
       "php": "^8.0"
     }
   }
