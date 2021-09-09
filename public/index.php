@@ -98,7 +98,7 @@ if($_POST["message"]) {
                 <div id="Wonjong Park" style ="background-color:#9BC8A5" class="tabcontent">
                 <h1>Wonjong Park</h1>
                 <div class="introduction-person">
-                    <div style="background-image: url('wonjong-intro.jpg');" class="introduction-img"></div>
+                    <div class="introduction-img-won"></div>
                     <div class="introduction-text">
                         <p>Age: 18</p>
                         <p>School: Stuyvesant High School</p>
