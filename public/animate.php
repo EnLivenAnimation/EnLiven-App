@@ -54,7 +54,7 @@
  
     <!-- TOP NAVBAR -->
     <div id="navbar">
-      <a id="home" class="navbar-button" href="newhome.html"><i class="fas fa-leaf"></i></a>
+      <a id="home" class="navbar-button" href="index.php"><i class="fas fa-leaf"></i></a>
       <div class="dropdown">
         <button onclick="displayDropdown('file-dropdown')" class="navbar-button">File</button>
         <div id="file-dropdown" class="dropdown-content">

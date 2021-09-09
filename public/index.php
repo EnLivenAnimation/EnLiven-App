@@ -27,7 +27,7 @@ if($_POST["message"]) {
     <script>window.onbeforeunload = function () {window.scrollTo(0, 0);}</script>
     <body>
         <nav id="navbar">
-            <script src = "scripts/mainpage.js"></script>
+            <script src = "scripts/index-navbar.js"></script>
             <a></a>
             <br>
             <button onclick="location.href='animate.php';" id="b1">Animate</button>
