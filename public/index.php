@@ -30,7 +30,7 @@ if($_POST["message"]) {
             <script src = "scripts/mainpage.js"></script>
             <a></a>
             <br>
-            <button href= "index.php" id="b1">Animate</button>
+            <button onclick="location.href='index.php';" id="b1">Animate</button>
             <button id="b2" >Resources</button>
             <button id="b3">Community</button>
             <?php
