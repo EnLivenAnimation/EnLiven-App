@@ -42,7 +42,7 @@ if($_POST["message"]) {
                     }
             ?>
         </nav>
-
+        
         <div id="hero">
             <div class="hero-text">
                 <br>
