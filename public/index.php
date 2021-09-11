@@ -31,8 +31,6 @@ if($_POST["message"]) {
             <a></a>
             <br>
             <button onclick="location.href='animate.php';" id="b1">Animate</button>
-            <button id="b2" >Resources</button>
-            <button id="b3">Community</button>
             <?php
                     if(isset($_SESSION["useruid"])){
                         echo "<button onclick=\"location.href='includes/logout.inc.php'\"; id='b4'>Log Out</button>";
@@ -66,7 +64,7 @@ if($_POST["message"]) {
                 <br>
                 <h1>02</h1>
                 <h2>CONVENIENT</h2>
-                <p>EnLiven is and will always be a free website that is accessible to anyone.</p>
+                <p>EnLiven is a web browser which means you can access it whenever you want!</p>
                 <br>
                 <button class='intro-button'>Get Started!</button>    
             </div>
@@ -131,7 +129,7 @@ if($_POST["message"]) {
                         <p>Age: 17</p>
                         <p>School: Stuyvesant High School</p>
                         <p>Interested subjects:CS</p>
-                        <p>Hobbies: Video Games, Manga</p>
+                        <p>Hobbies: Game development, Manga, art and animation</p>
                         <p>Least favorite person in team: Wonjong</p>
                     </div>
                 </div>
