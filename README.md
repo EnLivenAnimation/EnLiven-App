@@ -1,25 +1,23 @@
 # EnLiven-App
 
 This is the github page for our vector-based animation engine web broswer, EnLiven.
-
 To get started, press the animate tab in the nav bar which will take you to our animation page. 
-
 From here, you can add on a sprite by clicking the add part in the navbar.
-
 The timeline at the button will allow you to add frames and pla through them.
 
 Just like this you can start animating!
 
 Some documentation:
-Keybinds:
 
-Alt: adds a key frame
+  Keybinds:
 
-Space: Plays through the animation
+    Alt: adds a key frame
 
-Delete: Deletes the selected sprite
+    Space: Plays through the animation
 
-Ctrl+Z: Undo
+    Delete: Deletes the selected sprite
+
+    Ctrl+Z: Undo
 
 
 Triple Dots: Onion skin toggle
