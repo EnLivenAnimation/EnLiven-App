@@ -90,8 +90,8 @@
           <button onclick="addSquare();">Square</button>
           <button onclick="addTriangle();">Triangle</button>
           <button onclick="addHuman();">Human</button>
-          <label for="file-Img-selector" class="custom-file-upload">AddSprite</label>
-          <input type="file" id="file-Img-selector">
+          <!-- <label for="file-Img-selector" class="custom-file-upload">AddSprite</label>
+          <input type="file" id="file-Img-selector"> -->
         </div>
       </div>
 
@@ -100,9 +100,9 @@
 
       <button onclick="displayDropdown('background-dropdown')" class="navbar-button">Background</button>
       <div id="background-dropdown" class="dropdown-content">
-        <button onclick="addDefault();">Default</button>
+        <!-- <button onclick="addDefault();">Default</button>
         <button onclick="addBlackBackground();">BlackBackground</button>
-        <button onclick="addYourName();">YourNameBackground</button>
+        <button onclick="addYourName();">YourNameBackground</button> -->
         <label for="file-BackgroundImg-selector" class="custom-file-upload">AddBg</label>
           <input type="file" id="file-BackgroundImg-selector">
       </div>

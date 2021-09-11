@@ -1,28 +1,28 @@
-if (window.FileList && window.File && window.FileReader) {
-  document.getElementById('file-Img-selector').addEventListener('change', event => {
-    const file = event.target.files[0];
-    if (!file.type) {
-      return;
-    }
-    if (!file.type.match('image.*')) {
-      return;
-    }
-    const reader = new FileReader();
-    var image = new Image();
-    reader.addEventListener('load', event => {
-      // PIXI.loader
-      //   .add(event.target.result);
-      let a = displaySprite(PIXI.Texture.from(event.target.result), 200, 200, 300, 100);
-      for (i = 0; i < a.buttonArray.length;i++){
-        a.buttonArray[i].width = 10;
-        a.buttonArray[i].height = 10;
-        a.buttonArray[i].alpha = 1;
-        a.buttonArray[i].interactive = true;
-      }
-    });
-    reader.readAsDataURL(file);
-  }); 
-}
+// if (window.FileList && window.File && window.FileReader) {
+//   document.getElementById('file-Img-selector').addEventListener('change', event => {
+//     const file = event.target.files[0];
+//     if (!file.type) {
+//       return;
+//     }
+//     if (!file.type.match('image.*')) {
+//       return;
+//     }
+//     const reader = new FileReader();
+//     var image = new Image();
+//     reader.addEventListener('load', event => {
+//       // PIXI.loader
+//       //   .add(event.target.result);
+//       let a = displaySprite(PIXI.Texture.from(event.target.result), 200, 200, 300, 100);
+//       for (i = 0; i < a.buttonArray.length;i++){
+//         a.buttonArray[i].width = 10;
+//         a.buttonArray[i].height = 10;
+//         a.buttonArray[i].alpha = 1;
+//         a.buttonArray[i].interactive = true;
+//       }
+//     });
+//     reader.readAsDataURL(file);
+//   }); 
+// }
 // function addCircle2(){
 //   let circletexture = PIXI.Texture.from("res/img/circle.png");
 //   var tempSprite = displaySprite(circletexture, 100, 100, 1000, 400, null, null);
